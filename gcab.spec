@@ -4,8 +4,7 @@
 %define major	0
 %define libname	%mklibname %{name} %{api} %{major}
 %define girname	%mklibname %{name}-gir %{api}
-%define devname	%mklibname -d glom
-%define postgresql 9.0
+%define devname	%mklibname -d %{name}
 
 Summary:	Tool and library mainly made to create Cabinet files
 Name:		gcab
@@ -13,7 +12,7 @@ Version:	0.1
 Release:	1
 Group:		Development/Databases
 License:	GPLv2+
-URL:		http://www.gnome.org/
+Url:		http://www.gnome.org/
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gcab/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires:	intltool
