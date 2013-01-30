@@ -63,6 +63,7 @@ Development files for %{name}.
 
 %files -f %{name}.lang
 %{_bindir}/gcab
+%{_mandir}/man1/gcab*
 
 %files -n %{libname}
 %{_libdir}/lib%{name}-%{api}.so.%{major}*
@@ -76,3 +77,4 @@ Development files for %{name}.
 %{_libdir}/pkgconfig/*.pc
 %{_datadir}/gir-1.0/GCab-%{api}.gir
 %{_datadir}/vala/vapi/libgcab-%{api}.vapi
+%doc %{_datadir}/gtk-doc/html/%{name}
