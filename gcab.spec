@@ -8,7 +8,7 @@
 
 Summary:	Tool and library mainly made to create Cabinet files
 Name:		gcab
-Version:	0.1
+Version:	0.3
 Release:	1
 Group:		Development/Databases
 License:	GPLv2+
