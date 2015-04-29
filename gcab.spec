@@ -8,8 +8,8 @@
 
 Summary:	Tool and library mainly made to create Cabinet files
 Name:		gcab
-Version:	0.3
-Release:	2
+Version:	0.6
+Release:	1
 Group:		Development/Databases
 License:	GPLv2+
 Url:		http://www.gnome.org/
@@ -52,9 +52,7 @@ Development files for %{name}.
 %setup -q
 
 %build
-%configure2_5x \
-        --disable-static
-
+%configure
 %make
 
 %install
