@@ -9,7 +9,7 @@
 Summary:	Tool and library mainly made to create Cabinet files
 Name:		gcab
 Version:	0.6
-Release:	1
+Release:	2
 Group:		Development/Databases
 License:	GPLv2+
 Url:		http://www.gnome.org/
