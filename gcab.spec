@@ -57,6 +57,10 @@ Development files for %{name}.
 
 %install
 %makeinstall_std
+
+rm -f %{buildroot}%{_libdir}/*.a
+rm -f %{buildroot}%{_libdir}/*.la
+
 %find_lang %{name}
 
 %files -f %{name}.lang
