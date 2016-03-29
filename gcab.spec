@@ -1,15 +1,15 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
-%define api	1.0
-%define major	0
-%define libname	%mklibname %{name} %{api} %{major}
-%define girname	%mklibname %{name}-gir %{api}
-%define devname	%mklibname -d %{name}
+%define api 1.0
+%define major 0
+%define libname %mklibname %{name} %{api} %{major}
+%define girname %mklibname %{name}-gir %{api}
+%define devname %mklibname -d %{name}
 
 Summary:	Tool and library mainly made to create Cabinet files
 Name:		gcab
-Version:	0.6
-Release:	2
+Version:	0.7
+Release:	1
 Group:		Development/Databases
 License:	GPLv2+
 Url:		http://www.gnome.org/
