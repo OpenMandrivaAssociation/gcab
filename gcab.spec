@@ -19,6 +19,7 @@ BuildRequires:	intltool
 BuildRequires:	vala-tools
 BuildRequires:	vala-devel
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
+BuildRequires: pkgconfig(zlib)
 
 %description
 Tool and library mainly made to create Cabinet files.
