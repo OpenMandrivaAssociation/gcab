@@ -80,5 +80,5 @@ Development files for %{name}.
 %{_libdir}/lib%{name}-%{api}.so
 %{_libdir}/pkgconfig/*.pc
 %{_datadir}/gir-1.0/GCab-%{api}.gir
-%{_datadir}/vala/vapi/libgcab-%{api}.vapi
+%{_datadir}/vala/vapi/libgcab-%{api}.*
 %doc %{_datadir}/gtk-doc/html/%{name}
