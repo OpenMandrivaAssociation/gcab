@@ -20,6 +20,7 @@ BuildRequires:	vala-tools
 BuildRequires:	vala-devel
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires: pkgconfig(zlib)
+BuildRequires: gtk-doc
 BuildRequires: meson
 BuildRequires: git-core
 
