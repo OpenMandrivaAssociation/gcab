@@ -8,8 +8,8 @@
 
 Summary:	Tool and library mainly made to create Cabinet files
 Name:		gcab
-Version:	0.7
-Release:	2
+Version:	1.1
+Release:	1
 Group:		Development/Databases
 License:	GPLv2+
 Url:		http://www.gnome.org/
@@ -20,6 +20,7 @@ BuildRequires:	vala-tools
 BuildRequires:	vala-devel
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires: pkgconfig(zlib)
+BuildRequires: meson
 
 %description
 Tool and library mainly made to create Cabinet files.
@@ -50,14 +51,15 @@ Requires:	%{girname} = %{version}
 Development files for %{name}.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%configure
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
+
 %find_lang %{name}
 
 %files -f %{name}.lang
