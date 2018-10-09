@@ -46,6 +46,7 @@ Summary:        Development files for %{name}
 Group:          Development/Other
 Requires:	%{libname} = %{version}
 Requires:	%{girname} = %{version}
+Requires:	%{name} = %{version}
 
 %description -n %{devname}
 Development files for %{name}.
