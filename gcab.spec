@@ -21,6 +21,7 @@ BuildRequires:	vala-devel
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: meson
+BuildRequires: git-core
 
 %description
 Tool and library mainly made to create Cabinet files.
