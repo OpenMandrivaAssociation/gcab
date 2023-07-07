@@ -8,13 +8,12 @@
 
 Summary:	Tool and library mainly made to create Cabinet files
 Name:		gcab
-Version:	1.5
-Release:	2
+Version:	1.6
+Release:	1
 Group:		Development/Databases
 License:	GPLv2+
 Url:		http://www.gnome.org/
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gcab/%{url_ver}/%{name}-%{version}.tar.xz
-Patch0:  https://gitlab.gnome.org/GNOME/gcab/-/commit/ad0baea50359c1978a9224ee60bf98d97bfb991f.patch
 
 BuildRequires:	intltool
 BuildRequires:	vala-tools
