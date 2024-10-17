@@ -12,7 +12,7 @@ Version:	1.6
 Release:	1
 Group:		Development/Databases
 License:	GPLv2+
-Url:		http://www.gnome.org/
+Url:		https://www.gnome.org/
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gcab/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires:	intltool
